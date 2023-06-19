@@ -9,11 +9,11 @@ main div.overlay {
   background-color: rgba(12, 12, 12, 0.3);
   grid-template-rows: 4rem 5rem;
   color: white; 
-  display: grid;
-  row-gap: 3rem;
-  column-gap: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
   padding: 10rem 0;
-  justify-content: center;
   box-sizing: border-box;
 }
 
