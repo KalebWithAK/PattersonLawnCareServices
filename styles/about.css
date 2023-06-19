@@ -1,0 +1,35 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 3rem auto;
+  gap: 3rem;
+}
+
+main h2 {
+  grid-column: 1 / 4;
+}
+
+main img {
+  width: 25rem;
+  border: solid 0.5rem var(--dark-green);
+  border-radius: 2rem;
+}
+
+main div {
+  padding: 0 0.5rem;
+}
+
+main h3 {
+  color: var(--red);
+  border-bottom: solid 2px lightgray;
+  margin-bottom: 1rem;
+  width: fit-content;
+}
+
+div.hello hr {
+  width: 5rem;
+}
+
+div.love hr {
+  width: 16rem;
+}

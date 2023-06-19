@@ -1,0 +1,11 @@
+main a.button {
+  width: 6rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+main a.button:hover {
+  padding: 1.1rem 1.6rem;
+}
