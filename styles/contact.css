@@ -4,8 +4,29 @@ main a.button {
   align-items: center;
   gap: 1rem;
   padding: 1rem 1.5rem;
+  color: black;
+}
+
+main h2 {
+  text-align: center;
 }
 
 main a.button:hover {
   padding: 1.1rem 1.6rem;
+}
+
+div.container {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 38rem;
+  margin: auto;
+  gap: 1rem;
+}
+
+div.buttons {
+  display: flex;
+  width: 38rem;
+  justify-content: space-around;
 }
